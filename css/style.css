@@ -43,10 +43,10 @@ html {
 }
 body {
 	line-height: 1;
-	overflow-x: hidden;
 }
 .wrapper {
 	min-height: 100%;
+	overflow: hidden;
 }
 /* ------------------------------ */
 
