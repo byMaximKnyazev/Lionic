@@ -228,3 +228,60 @@ button {
 	margin-right: 17px;
 }
 
+/* Стили для Contacts */
+.contacts-title {
+	margin-bottom: 106px;
+}
+
+.contacts-address {
+	font-style: normal;
+}
+
+.contacts-item {
+	flex-direction: column;
+	margin-right: 30px;
+	width: 370px;
+}
+
+.contacts-item:last-child {
+	margin-right: 0;
+}
+
+.contacts-item-title {
+	margin-bottom: 30px;
+}
+
+.contacts-item-link {
+	display: block;
+	margin-bottom: 5px;
+}
+
+/* Стили для Footer */
+.footer {
+	padding: 45px 0;
+}
+
+.footer-container {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-left {
+	align-items: center;
+}
+
+.footer-logo {
+	margin-right: 25px;
+}
+
+.footer-right {
+	align-items: center;
+}
+
+.footer-item {
+	margin-right: 28px;
+}
+
+.footer-item:last-child {
+	margin-right: 0;
+}
