@@ -72,13 +72,17 @@ button {
 	padding: 87px 0 160px;
 }
 
-/* .btn {
-
-} */
+.btn {
+	cursor: pointer;
+}
 
 /* .title {
 
 } */
+
+.title-descr {
+	text-align: center;
+}
 
 
 /* Стили для Header */
@@ -100,4 +104,62 @@ button {
 
 .header-list-item:not(:last-child) {
 	margin-right: 52px;
+}
+
+/* Стили для Hero */
+.hero {
+	padding: 113px 0 134px;
+}
+
+.hero-content {
+	flex-direction: column;
+	align-items: flex-start;
+	width: 45%;
+}
+
+.hero-title {
+	margin-bottom: 26px;
+}
+
+.hero-descr {
+	margin-bottom: 34px;
+}
+
+.hero-btn {
+	margin-bottom: 14px;
+}
+
+/* СТили для Services */
+.services-title {
+	margin-bottom: 21px;
+	text-align: center;
+}
+
+.services-title-descr {
+	margin-bottom: 54px;
+}
+
+.services-list-item {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+	padding: 62px 30px;
+	width: 270px;
+}
+
+.services-list-item:nth-child(4n) {
+	margin-right: 0;
+}
+
+.services-list-icon {
+	margin-bottom: 27px;
+}
+
+.services-list-title {
+	margin-bottom: 15px;
+}
+
+.services-list-descr {
+	text-align: center;
 }
