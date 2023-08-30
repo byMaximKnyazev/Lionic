@@ -324,6 +324,10 @@ button {
 }
 
 /* Стили для Clients */
+.clients {
+	border-bottom: 1px solid #dadada;
+}
+
 .clients-title {
 	margin-bottom: 42px;
 }
@@ -332,6 +336,8 @@ button {
 	flex-direction: column;
 	margin-right: 30px;
 	padding: 50px 52px 32px;
+	border-radius: 5px;
+	border: 1px solid #E4E4E4;
 }
 
 .clients-item:last-child {
@@ -340,16 +346,34 @@ button {
 
 .clients-item-descr {
 	margin-bottom: 33px;
+	color: #787878;
+	font-size: 14px;
+	line-height: 180%;
 }
 
 .clients-item-user {
 	align-items: center;
 	margin-top: auto;
 	padding-top: 22px;
+	border-top: 1px solid #c4c4c4;
 }
 
 .clients-item-avatar {
 	margin-right: 17px;
+	border: 1px solid #c4c4c4;
+	border-radius: 100%;
+}
+
+.clients-item-name {
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 180%;
+}
+
+.clients-item-role {
+	color: #787878;
+	font-size: 14px;
+	line-height: 180%;
 }
 
 /* Стили для Contacts */
