@@ -454,8 +454,17 @@ button {
 	margin-right: 25px;
 }
 
+.footer-copyright {
+	color: #787878;
+	font-size: 12px;
+}
+
 .footer-right {
 	align-items: center;
+}
+
+.footer-nav {
+	margin-right: 56px;
 }
 
 .footer-item {
@@ -464,4 +473,35 @@ button {
 
 .footer-item:last-child {
 	margin-right: 0;
+}
+
+.footer-item-link {
+	color: #787878;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.footer-social-item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.footer-social-link {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.footer-social-twitter {
+	background-image: url('../img/footer/twitter.svg');
+}
+
+.footer-social-linkedin {
+	background-image: url('../img/footer/linkedin.svg');
+}
+
+.footer-social-gmail {
+	background-image: url('../img/footer/gmail.svg');
 }
