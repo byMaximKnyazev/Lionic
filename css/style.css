@@ -137,6 +137,7 @@ button {
 
 .title-descr {
 	text-align: center;
+	color: #787878;
 }
 
 
@@ -228,7 +229,6 @@ button {
 
 .services-title-descr {
 	margin-bottom: 54px;
-	color: #787878;
 	font-size: 16px;
 }
 
@@ -434,6 +434,98 @@ button {
 	color: #787878;
 	font-size: 14px;
 	line-height: 180%;
+}
+
+/* Стили для Join us */
+.join-us {
+	border-bottom: 1px solid #DADADA;
+}
+
+.join-us-title {
+	margin-bottom: 22px;
+	text-align: center;
+}
+
+.join-us-descr {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.form {
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.form-top {
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.form-left {
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 49%;
+}
+
+.form-input {
+	padding: 15px 10px 15px 28px;
+	width: 251px;
+	border-radius: 50px;
+	border: 1px solid #DADADA;
+	opacity: 0.6;
+}
+
+.form-input:nth-child(1),
+.form-input:nth-child(2) {
+	margin-bottom: 20px;
+}
+
+.form-select {
+	padding: 15px 10px 15px 28px;
+	width: 251px;
+	border-radius: 50px;
+	border: 1px solid #DADADA;
+	opacity: 0.6;
+	background-color: transparent;
+}
+
+.form-right {
+	width: 49%;
+}
+
+.form-textarea {
+	padding: 15px 10px 15px 28px;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	border: 1px solid #DADADA;
+	opacity: 0.6;
+	resize: none;
+}
+
+.form-bottom {
+	justify-content: flex-end;
+}
+
+.form-inner {
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-btn {
+	margin-bottom: 9px;
+	width: 230px;
+	border-radius: 50px;
+}
+
+.form-btn-input {
+	color: #787878;
+	font-size: 12px;
+}
+
+.form-btn-input-link {
+	color: #3172B9;
+	text-decoration-line: underline;
 }
 
 /* Стили для Footer */
