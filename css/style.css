@@ -128,6 +128,20 @@ button {
 	background: #3172B9;
 }
 
+.btn:focus {
+	outline-offset: 3px;
+	outline: 1px solid #71A7E2;
+}
+
+.btn:hover {
+	background-color: #71A7E2;
+}
+
+.btn:active {
+	outline: none;
+	background-color: #0E3B6C;
+}
+
 .title {
 	color: #1c1c1c;
 	font-size: 36px;
@@ -167,6 +181,21 @@ button {
 	color: #1c1c1c;
 	font-size: 15px;
 	font-weight: 600;
+}
+
+.header-list-link:focus {
+	outline-offset: 3px;
+	outline: 1px solid #71A7E2;
+}
+
+.header-list-link:hover {
+	color: #71A7E2;
+}
+
+.header-list-link:active {
+	outline: none;
+	color: #3172B9;
+	border-bottom: 2px solid #3474BA;
 }
 
 /* Стили для Hero */
@@ -243,12 +272,29 @@ button {
 	border: 1px solid #E4E4E4;
 }
 
+.services-list-item:hover {
+	background-color: #3172B9;
+}
+
+.services-list-item:hover .services-list-title {
+	color: #fff;
+}
+
+.services-list-item:hover .services-list-descr {
+	color: #fff;
+}
+
 .services-list-item:nth-child(4n) {
 	margin-right: 0;
 }
 
 .services-list-icon {
 	margin-bottom: 27px;
+	fill: #3172B9;
+}
+
+.services-list-item:hover .services-list-icon {
+	fill: #fff;
 }
 
 .services-list-title {
@@ -294,6 +340,54 @@ button {
 	border: 1px solid #E4E4E4;
 }
 
+.article-prewiev-link:focus {
+	background-color: #71A7E2;
+}
+
+.article-prewiev-link:focus .article-prewiev-time {
+	color: #fff;
+}
+
+.article-prewiev-link:focus .article-prewiev-title {
+	color: #fff;
+}
+
+.article-prewiev-link:focus .article-prewiev-text {
+	color: #fff;
+}
+
+.article-prewiev-link:hover {
+	background-color: #3172B9;
+}
+
+.article-prewiev-link:hover .article-prewiev-time {
+	color: #fff;
+}
+
+.article-prewiev-link:hover .article-prewiev-title {
+	color: #fff;
+}
+
+.article-prewiev-link:hover .article-prewiev-text {
+	color: #fff;
+}
+
+.article-prewiev-link:active {
+	background-color: #0E3B6C;
+}
+
+.article-prewiev-link:active .article-prewiev-time {
+	color: #fff;
+}
+
+.article-prewiev-link:active .article-prewiev-title {
+	color: #fff;
+}
+
+.article-prewiev-link:active .article-prewiev-text {
+	color: #fff;
+}
+
 .article-prewiev-img {
 	object-fit: cover;
 }
@@ -311,6 +405,7 @@ button {
 
 .article-prewiev-title {
 	margin-bottom: 15px;
+	color: #1c1c1c;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 130%;
@@ -429,11 +524,33 @@ button {
 	line-height: 180%;
 }
 
+.contacts-item-phone .contacts-item-link {
+	max-width: 121px;
+}
+
 .contacts-item-link {
 	display: block;
 	color: #787878;
 	font-size: 14px;
 	line-height: 180%;
+}
+
+.contacts-item-link:focus {
+	outline-offset: 2px;
+	outline: 1px solid #71A7E2;
+}
+
+.contacts-item-link:hover {
+	color: #71A7E2;
+}
+
+.contacts-item-link:active {
+	outline: none;
+	color: #0E3B6C;
+}
+
+.contacts-item-mail .contacts-item-link {
+	max-width: 170px;
 }
 
 /* Стили для Join us */
@@ -478,6 +595,27 @@ button {
 .form-input:nth-child(1),
 .form-input:nth-child(2) {
 	margin-bottom: 20px;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+	outline: 1px solid #71A7E2;
+	background-color: rgba(113, 167, 226, 0.20);
+}
+
+.form-input:hover,
+.form-select:hover,
+.form-textarea:hover {
+	border: 1px solid #71A7E2;
+}
+
+.form-input:active,
+.form-select:active,
+.form-textarea:active {
+	outline: none;
+	background-color: transparent;
+	border: 1px solid #0E3B6C;
 }
 
 .form-select {
@@ -573,27 +711,61 @@ button {
 	font-weight: 600;
 }
 
+.footer-item-link:focus {
+	outline-offset: 3px;
+	outline: 1px solid #71A7E2;
+}
+
+.footer-item-link:hover {
+	color: #71A7E2;
+}
+
+.footer-item-link:active {
+	outline: none;
+	color: #3172B9;
+	border-bottom: 2px solid #3474BA;
+}
+
 .footer-social-item:not(:last-child) {
 	margin-right: 32px;
 }
 
 .footer-social-link {
-	display: block;
+	align-items: center;
+	justify-content: center;
 	width: 24px;
 	height: 24px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
 }
 
-.footer-social-twitter {
-	background-image: url('../img/footer/twitter.svg');
+.footer-social-link svg {
+	fill: #000;
+	stroke: #000;
 }
 
-.footer-social-linkedin {
-	background-image: url('../img/footer/linkedin.svg');
+.footer-social-gmail svg {
+	fill: transparent;
 }
 
-.footer-social-gmail {
-	background-image: url('../img/footer/gmail.svg');
+.footer-social-link:focus svg {
+	outline-offset: 3px;
+	outline: 1px solid #71A7E2;
+}
+
+.footer-social-link:hover svg {
+	fill: #71A7E2;
+	stroke: #71A7E2;
+}
+
+.footer-social-gmail:hover svg {
+	fill: transparent;
+}
+
+.footer-social-link:active svg {
+	outline: none;
+	fill: #3172B9;
+	stroke: #3172B9;
+}
+
+.footer-social-gmail:active svg {
+	fill: transparent;
 }
