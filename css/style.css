@@ -126,6 +126,7 @@ button {
 	cursor: pointer;
 	border-radius: 3px;
 	background: #3172B9;
+	transition: background-color 0.3s ease-in-out;
 }
 
 .btn:focus {
@@ -181,6 +182,7 @@ button {
 	color: #1c1c1c;
 	font-size: 15px;
 	font-weight: 600;
+	transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .header-list-link:focus {
@@ -254,11 +256,13 @@ button {
 .services-title {
 	margin-bottom: 21px;
 	text-align: center;
+	transition: color 0.3s ease-in-out;
 }
 
 .services-title-descr {
 	margin-bottom: 54px;
 	font-size: 16px;
+	transition: color 0.3s ease-in-out;
 }
 
 .services-list-item {
@@ -270,6 +274,7 @@ button {
 	width: 270px;
 	border-radius: 5px;
 	border: 1px solid #E4E4E4;
+	transition: background-color 0.3s ease-in-out;
 }
 
 .services-list-item:hover {
@@ -291,6 +296,7 @@ button {
 .services-list-icon {
 	margin-bottom: 27px;
 	fill: #3172B9;
+	transition: fill 0.3s ease-in-out;
 }
 
 .services-list-item:hover .services-list-icon {
@@ -338,6 +344,10 @@ button {
 	overflow: hidden;
 	border-radius: 5px;
 	border: 1px solid #E4E4E4;
+}
+
+.article-prewiev-link {
+	transition: background-color 0.3s ease-in-out;
 }
 
 .article-prewiev-link:focus {
@@ -401,6 +411,7 @@ button {
 	color: #787878;
 	font-size: 10px;
 	line-height: 150%;
+	transition: color 0.3s ease-in-out;
 }
 
 .article-prewiev-title {
@@ -409,6 +420,7 @@ button {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 130%;
+	transition: color 0.3s ease-in-out;
 }
 
 .article-prewiev-text {
@@ -416,6 +428,7 @@ button {
 	color: #787878;
 	font-size: 14px;
 	line-height: 150%;
+	transition: color 0.3s ease-in-out;
 }
 
 /* Стили для Clients */
@@ -533,6 +546,7 @@ button {
 	color: #787878;
 	font-size: 14px;
 	line-height: 180%;
+	transition: color 0.3s ease-in-out;
 }
 
 .contacts-item-link:focus {
@@ -590,6 +604,7 @@ button {
 	border-radius: 50px;
 	border: 1px solid #DADADA;
 	opacity: 0.6;
+	transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .form-input:nth-child(1),
@@ -625,6 +640,7 @@ button {
 	border: 1px solid #DADADA;
 	opacity: 0.6;
 	background-color: transparent;
+	transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .form-right {
@@ -639,6 +655,7 @@ button {
 	border: 1px solid #DADADA;
 	opacity: 0.6;
 	resize: none;
+	transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .form-bottom {
@@ -709,6 +726,7 @@ button {
 	color: #787878;
 	font-size: 15px;
 	font-weight: 600;
+	transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .footer-item-link:focus {
@@ -740,6 +758,7 @@ button {
 .footer-social-link svg {
 	fill: #000;
 	stroke: #000;
+	transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
 }
 
 .footer-social-gmail svg {
