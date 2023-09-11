@@ -101,10 +101,12 @@ button {
 	font-style: normal;
 	font-display: swap;
 }
+
 /* Переменные */
 :root {
 	--gap: 30px;
 }
+
 /* Общие стили */
 
 .flex {
@@ -204,6 +206,11 @@ button {
 	border-bottom: 2px solid #3474BA;
 }
 
+/* .burger-btn {
+	display: none;
+} */
+
+
 /* Стили для Hero */
 .hero {
 	padding: 113px 0 134px;
@@ -279,6 +286,10 @@ button {
 	border-radius: 5px;
 	border: 1px solid #E4E4E4;
 	transition: background-color 0.3s ease-in-out;
+}
+
+.services-list-title {
+	text-align: center;
 }
 
 .services-list-item:hover {
